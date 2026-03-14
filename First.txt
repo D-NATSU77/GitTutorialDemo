@@ -38,8 +38,10 @@ touch .gitignore (put name of error.log and git ignore error.log)
 *.log (if typed in .gitignore ,ignore all .log folder in repository)
 dir/  (if typed in .gitignore ,ignore dir folder in repository)
 /dir/  (if typed in .gitignore ,ignore only outside dir folder in repository)
-/static/dir/ or /static/dir (if typed in .gitignore ,ignore only inside dir folder in repository)
+/static/dir/ or /static/dir (if typed in .gitignore ,ignore only inside dir folder           in repository)
 git ignore empty folder and files as default
 
 git diff (Compare working directory with staging area)
 git diff --staged (Compare previous commit with staging area)
+
+git commit -a -m "Direct commit" (Commit files directly from working directory without going to staging area but it isn't include untracked files)
