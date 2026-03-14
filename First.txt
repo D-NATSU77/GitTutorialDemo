@@ -12,7 +12,7 @@ Up arrow key (to copy above command)
 
 git status
 git init
-git add --a
+git add --a or git add .
 git commit -m "Initial Commit"
 git log
 
@@ -31,3 +31,15 @@ ls  (list content)
 cd tensorflow/ (change directory)
 
 f1 + tab (autocomplete modified)
+
+touch error.log (create a file of error.log which open in notepad)
+touch .gitignore (put name of error.log and git ignore error.log)
+
+*.log (if typed in .gitignore ,ignore all .log folder in repository)
+dir/  (if typed in .gitignore ,ignore dir folder in repository)
+/dir/  (if typed in .gitignore ,ignore only outside dir folder in repository)
+/static/dir/ or /static/dir (if typed in .gitignore ,ignore only inside dir folder in repository)
+git ignore empty folder and files as default
+
+git diff (Compare working directory with staging area)
+git diff --staged (Compare previous commit with staging area)
