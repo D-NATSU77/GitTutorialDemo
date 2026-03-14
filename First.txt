@@ -1,0 +1,33 @@
+this is version 1 of my project
+
+git config --global user.name "Natsu"
+git config --global user.email "rai475650@gmail.com"
+git config --list
+git config --global core.editor emacs
+git config --global core.editor vim
+git config user.name
+git config user.email
+
+Up arrow key (to copy above command)
+
+git status
+git init
+git add --a
+git commit -m "Initial Commit"
+git log
+
+I want this to go into commit 2
+
+git add First.txt
+git commit -m "Changed First.txt and added better design"
+rm -rf .git
+git clone https://github.com/tensorflow/tensorflow.git 
+git clone https://github.com/tensorflow/tensorflow.git updated tensorflow
+
+shift+insert (to paste)
+
+pwd (present working directry)
+ls  (list content)
+cd tensorflow/ (change directory)
+
+f1 + tab (autocomplete modified)
