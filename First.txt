@@ -1,0 +1,58 @@
+this is version 1 of my project
+
+git config --global user.name "Natsu"
+git config --global user.email "rai475650@gmail.com"
+git config --list
+git config --global core.editor emacs
+git config --global core.editor vim
+git config user.name
+git config user.email
+
+Up arrow key (to copy above command)
+
+git status
+git init
+git add --a or git add .
+git commit -m "Initial Commit"
+git log
+
+I want this to go into commit 2
+
+git add First.txt
+git commit -m "Changed First.txt and added better design"
+rm -rf .git
+git clone https://github.com/tensorflow/tensorflow.git 
+git clone https://github.com/tensorflow/tensorflow.git updated tensorflow
+
+shift+insert (to paste)
+
+pwd (present working directry)
+ls  (list content)
+cd tensorflow/ (change directory)
+
+f1 + tab (autocomplete modified)
+
+touch error.log (create a file of error.log which open in notepad)
+touch .gitignore (put name of error.log and git ignore error.log)
+
+*.log (if typed in .gitignore ,ignore all .log folder in repository)
+dir/  (if typed in .gitignore ,ignore dir folder in repository)
+/dir/  (if typed in .gitignore ,ignore only outside dir folder in repository)
+/static/dir/ or /static/dir (if typed in .gitignore ,ignore only inside dir folder           in repository)
+git ignore empty folder and files as default
+
+git diff (Compare working directory with staging area)
+git diff --staged (Compare previous commit with staging area)
+
+git commit -a -m "Direct commit" (Commit files directly from working directory without going to staging area but it isn't include untracked files)(it isn't a good practice)
+
+In commit don't use date or "I changed this" but use things like "I fixed this bug" or "Add multiple theme"
+
+press Q to exit,if you don't able to write command(pager)
+press tab to complete file name,if you write first few letters.
+
+git rm third.txt (It delete and staged the selected files.)
+git mv third.txt third_renamed.txt (It rename and staged the selected files.)
+git rm --cached (It untracked the selected files.)
+
+
