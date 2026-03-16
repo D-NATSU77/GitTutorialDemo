@@ -44,4 +44,8 @@ git ignore empty folder and files as default
 git diff (Compare working directory with staging area)
 git diff --staged (Compare previous commit with staging area)
 
-git commit -a -m "Direct commit" (Commit files directly from working directory without going to staging area but it isn't include untracked files)
+git commit -a -m "Direct commit" (Commit files directly from working directory without going to staging area but it isn't include untracked files)(it isn't a good practice)
+
+In commit don't use date or "I changed this" but use things like "I fixed this bug" or "Add multiple theme"
+
+press Q to exit,if you don't able to write command(pager)
